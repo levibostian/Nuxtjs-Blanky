@@ -1,3 +1,28 @@
 @import "~tachyons-sass/tachyons.scss";
 
 $error-color: #bd393b;
+
+html {
+    font-family:sans-serif;
+    line-height:1.15;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+body {
+    margin:0
+}
+a {
+  @extend .pointer;
+  @extend .link;
+  @extend .dim;
+}
+
+.button {
+    @extend .dib;
+    @extend .pv2;
+    @extend .ph3;
+    @extend .f4;
+    @extend .br2;
+    @extend .pointer;
+    @extend .dim;
+}

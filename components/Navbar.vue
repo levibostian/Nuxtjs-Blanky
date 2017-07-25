@@ -1,15 +1,10 @@
 <template lang="pug">
-  .w-100
-    Navbar
+  .w-100.blue
+    h2 Yo.
 </template>
 
 <script>
-import Navbar from '~components/Navbar.vue'
-
 export default {
-  components: {
-    Navbar
-  }
 }
 </script>
 
